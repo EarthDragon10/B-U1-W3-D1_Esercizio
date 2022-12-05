@@ -1,0 +1,33 @@
+﻿body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: ghostwhite;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+
+    height: 100vh;
+    gap: 1.4rem;
+}
+
+.box-form {
+    //background-color:aquamarine;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.d-inline {
+    display: inline-block;
+}
+
